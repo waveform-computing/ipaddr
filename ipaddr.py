@@ -24,6 +24,9 @@ and networks.
 
 __version__ = '2.1.11-py3.2'
 
+long = int
+xrange = range
+
 import struct
 
 IPV4LENGTH = 32
