@@ -3,6 +3,8 @@ It was developed by Google for internal use, and is now open source.
 
 Project home page: http://code.google.com/p/ipaddr-py/
 
-Please send contributions to ipaddr-py-dev@googlegroups.com.  Code should
-include unit tests and follow the Google Python style guide:
-http://code.google.com/p/soc/wiki/PythonStyleGuide
+This is a fork of the ipaddr project purely for the purposes of providing a
+version compatible with python 3.2; in python 2.7 the original works fine,
+while python 3.3 and above include a version of ipaddr called ipaddress.
+Unfortunately python 3.2 is still quite a prevalent version - it's included
+in Ubuntu 12.04 LTS and in Raspbian on the Raspberry Pi.
