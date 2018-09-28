@@ -22,7 +22,7 @@ and networks.
 
 """
 
-__version__ = '2.1.11-py3.2'
+__version__ = '2.1.11py3.2'
 
 long = int
 xrange = range
